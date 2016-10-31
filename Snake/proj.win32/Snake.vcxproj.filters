@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameLayer">
+      <UniqueIdentifier>{c9e8fc4b-2d4a-46fd-b32f-27562390d6ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameLayer\Snake">
+      <UniqueIdentifier>{ba0650c6-0d52-41af-906c-617e8ec92bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameLayer\BackGround">
+      <UniqueIdentifier>{d75aee64-a41d-47e7-a214-64d81343029c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameLayer\Wall">
+      <UniqueIdentifier>{aea221cd-5968-402f-8e3b-0c4034d47158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\SingleGameLayer">
+      <UniqueIdentifier>{b8d82ed1-0957-4c60-92ae-41a72e5493cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\EndLayer">
+      <UniqueIdentifier>{088348a8-d3f8-4edc-a9bd-a7b5be3c78a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\GameLayer.cpp">
+      <Filter>src\GameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\BackGroundLayer.cpp">
+      <Filter>src\GameLayer\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SnakeNode.cpp">
+      <Filter>src\GameLayer\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\WallLayer.cpp">
+      <Filter>src\GameLayer\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Snake2Node.cpp">
+      <Filter>src\GameLayer\Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\SingleGameLayer.cpp">
+      <Filter>src\SingleGameLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="EndLayer.cpp">
+      <Filter>src\EndLayer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameLayer.h">
+      <Filter>src\GameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\BackGroundLayer.h">
+      <Filter>src\GameLayer\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SnakeNode.h">
+      <Filter>src\GameLayer\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\WallLayer.h">
+      <Filter>src\GameLayer\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Snake2Node.h">
+      <Filter>src\GameLayer\Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SingleGameLayer.h">
+      <Filter>src\SingleGameLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="EndLayer.h">
+      <Filter>src\EndLayer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

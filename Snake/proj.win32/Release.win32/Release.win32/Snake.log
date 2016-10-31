@@ -1,0 +1,473 @@
+﻿生成启动时间为 2015/6/18 21:54:07。
+     1>项目“D:\Snake\proj.win32\Snake.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Cocos\frameworks\cocos2d-x-3.5\cocos\audio\include" /I"D:\Cocos\frameworks\cocos2d-x-3.5\external" /I"D:\Cocos\frameworks\cocos2d-x-3.5\external\chipmunk\include\chipmunk" /I"D:\Cocos\frameworks\cocos2d-x-3.5\extensions" /I..\Classes /I.. /I"D:\Cocos\frameworks\cocos2d-x-3.5\cocos\2d\..\..\cocos\editor-support" /I"D:\Cocos\frameworks\cocos2d-x-3.5\cocos\2d\..\..\cocos" /I"D:\Cocos\frameworks\cocos2d-x-3.5\cocos\2d\..\..\cocos\platform" /I"D:\Cocos\frameworks\cocos2d-x-3.5\cocos\2d\..\..\cocos\platform\desktop" /I"D:\Cocos\frameworks\cocos2d-x-3.5\cocos\2d\..\..\external\glfw3\include\win32" /I"D:\Cocos\frameworks\cocos2d-x-3.5\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /Zi /nologo /W3 /WX- /MP /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release.win32\\" /Fd"Release.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\BackGroundLayer.cpp ..\Classes\GameLayer.cpp ..\Classes\HelloWorldScene.cpp ..\Classes\SingleGameLayer.cpp ..\Classes\Snake2Node.cpp ..\Classes\SnakeNode.cpp ..\Classes\WallLayer.cpp main.cpp EndLayer.cpp
+         AppDelegate.cpp
+         BackGroundLayer.cpp
+         GameLayer.cpp
+         HelloWorldScene.cpp
+     1>d:\cocos\frameworks\cocos2d-x-3.5\cocos\physics/CCPhysicsJoint.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (..\Classes\BackGroundLayer.cpp)
+     1>d:\cocos\frameworks\cocos2d-x-3.5\cocos\physics/CCPhysicsJoint.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (..\Classes\HelloWorldScene.cpp)
+     1>d:\cocos\frameworks\cocos2d-x-3.5\cocos\physics/CCPhysicsJoint.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (..\Classes\AppDelegate.cpp)
+     1>d:\cocos\frameworks\cocos2d-x-3.5\cocos\physics/CCPhysicsJoint.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (..\Classes\GameLayer.cpp)
+     1>d:\snake\classes\WallLayer.h(11): warning C4996: 'cocos2d::CCArray': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(1036) : 参见“cocos2d::CCArray”的声明
+     1>d:\snake\classes\WallLayer.h(11): warning C4996: 'cocos2d::CCArray': 被声明为已否决 (..\Classes\GameLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(1036) : 参见“cocos2d::CCArray”的声明
+     1>d:\snake\classes\WallLayer.h(11): warning C4996: 'cocos2d::CCArray': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(1036) : 参见“cocos2d::CCArray”的声明
+     1>d:\snake\classes\WallLayer.h(10): warning C4996: 'cocos2d::CCArray': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(1036) : 参见“cocos2d::CCArray”的声明
+     1>d:\snake\classes\WallLayer.h(10): warning C4996: 'cocos2d::CCArray': 被声明为已否决 (..\Classes\GameLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(1036) : 参见“cocos2d::CCArray”的声明
+     1>d:\snake\classes\WallLayer.h(10): warning C4996: 'cocos2d::CCArray': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(1036) : 参见“cocos2d::CCArray”的声明
+     1>d:\snake\classes\GameLayer.h(42): warning C4996: 'cocos2d::CCArray': 被声明为已否决 (..\Classes\GameLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(1036) : 参见“cocos2d::CCArray”的声明
+     1>d:\snake\classes\GameLayer.h(42): warning C4996: 'cocos2d::CCArray': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(1036) : 参见“cocos2d::CCArray”的声明
+     1>d:\snake\classes\GameLayer.h(43): warning C4996: 'cocos2d::CCArray': 被声明为已否决 (..\Classes\GameLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(1036) : 参见“cocos2d::CCArray”的声明
+     1>d:\snake\classes\SingleGameLayer.h(32): warning C4996: 'cocos2d::CCArray': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(1036) : 参见“cocos2d::CCArray”的声明
+     1>d:\snake\classes\GameLayer.h(43): warning C4996: 'cocos2d::CCArray': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(1036) : 参见“cocos2d::CCArray”的声明
+     1>d:\snake\classes\GameLayer.h(50): warning C4996: 'cocos2d::CCPoint': 被声明为已否决 (..\Classes\GameLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(775) : 参见“cocos2d::CCPoint”的声明
+     1>d:\snake\classes\SingleGameLayer.h(37): warning C4996: 'cocos2d::CCPoint': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(775) : 参见“cocos2d::CCPoint”的声明
+     1>d:\snake\classes\GameLayer.h(50): warning C4996: 'cocos2d::CCPoint': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(775) : 参见“cocos2d::CCPoint”的声明
+     1>d:\snake\classes\GameLayer.h(51): warning C4996: 'cocos2d::CCPoint': 被声明为已否决 (..\Classes\GameLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(775) : 参见“cocos2d::CCPoint”的声明
+     1>d:\snake\classes\GameLayer.h(51): warning C4996: 'cocos2d::CCPoint': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(775) : 参见“cocos2d::CCPoint”的声明
+     1>d:\snake\classes\GameLayer.h(52): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\GameLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>d:\snake\classes\GameLayer.h(52): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>d:\snake\classes\GameLayer.h(53): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\GameLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>d:\snake\classes\GameLayer.h(53): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>d:\snake\classes\GameLayer.h(54): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\GameLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>d:\snake\classes\GameLayer.h(54): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>d:\snake\classes\GameLayer.h(55): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\GameLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>d:\snake\classes\GameLayer.h(55): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>d:\snake\classes\GameLayer.h(20): warning C4996: 'cocos2d::CCPoint': 被声明为已否决 (..\Classes\GameLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(775) : 参见“cocos2d::CCPoint”的声明
+     1>d:\snake\classes\GameLayer.h(20): warning C4996: 'cocos2d::CCPoint': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(775) : 参见“cocos2d::CCPoint”的声明
+     1>d:\snake\classes\GameLayer.h(20): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\GameLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>d:\snake\classes\GameLayer.h(20): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>..\Classes\GameLayer.cpp(7): warning C4996: 'cocos2d::CCPoint': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(775) : 参见“cocos2d::CCPoint”的声明
+     1>d:\snake\classes\SingleGameLayer.h(32): warning C4996: 'cocos2d::CCArray': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(1036) : 参见“cocos2d::CCArray”的声明
+     1>..\Classes\GameLayer.cpp(41): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>d:\snake\classes\SingleGameLayer.h(37): warning C4996: 'cocos2d::CCPoint': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(775) : 参见“cocos2d::CCPoint”的声明
+     1>..\Classes\GameLayer.cpp(41): warning C4996: 'cocos2d::ccp': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(49) : 参见“cocos2d::ccp”的声明
+     1>..\Classes\GameLayer.cpp(47): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>d:\snake\classes\SingleGameLayer.h(39): warning C4996: 'cocos2d::CCPoint': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(775) : 参见“cocos2d::CCPoint”的声明
+     1>d:\snake\classes\SingleGameLayer.h(40): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>d:\snake\classes\SingleGameLayer.h(41): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>d:\snake\classes\SingleGameLayer.h(42): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>d:\snake\classes\SingleGameLayer.h(19): warning C4996: 'cocos2d::CCPoint': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(775) : 参见“cocos2d::CCPoint”的声明
+     1>d:\snake\classes\SingleGameLayer.h(19): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>d:\snake\classes\GameLayer.h(42): warning C4996: 'cocos2d::CCArray': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(1036) : 参见“cocos2d::CCArray”的声明
+     1>d:\snake\classes\GameLayer.h(43): warning C4996: 'cocos2d::CCArray': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(1036) : 参见“cocos2d::CCArray”的声明
+     1>d:\snake\classes\GameLayer.h(50): warning C4996: 'cocos2d::CCPoint': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(775) : 参见“cocos2d::CCPoint”的声明
+     1>d:\snake\classes\GameLayer.h(51): warning C4996: 'cocos2d::CCPoint': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(775) : 参见“cocos2d::CCPoint”的声明
+     1>d:\snake\classes\GameLayer.h(52): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>d:\snake\classes\SingleGameLayer.h(39): warning C4996: 'cocos2d::CCPoint': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(775) : 参见“cocos2d::CCPoint”的声明
+     1>d:\snake\classes\GameLayer.h(53): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>d:\snake\classes\SingleGameLayer.h(40): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>d:\snake\classes\GameLayer.h(54): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>d:\snake\classes\SingleGameLayer.h(41): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>d:\snake\classes\GameLayer.h(55): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>d:\snake\classes\SingleGameLayer.h(42): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>d:\snake\classes\GameLayer.h(20): warning C4996: 'cocos2d::CCPoint': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(775) : 参见“cocos2d::CCPoint”的声明
+     1>d:\snake\classes\SingleGameLayer.h(19): warning C4996: 'cocos2d::CCPoint': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(775) : 参见“cocos2d::CCPoint”的声明
+     1>d:\snake\classes\HelloWorldScene.h(22): warning C4996: 'cocos2d::Object': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(539) : 参见“cocos2d::Object”的声明
+     1>d:\snake\classes\HelloWorldScene.h(23): warning C4996: 'cocos2d::Object': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(539) : 参见“cocos2d::Object”的声明
+     1>d:\snake\classes\HelloWorldScene.h(22): warning C4996: 'cocos2d::Object': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(539) : 参见“cocos2d::Object”的声明
+     1>d:\snake\classes\HelloWorldScene.h(24): warning C4996: 'cocos2d::Object': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(539) : 参见“cocos2d::Object”的声明
+     1>d:\snake\classes\HelloWorldScene.h(23): warning C4996: 'cocos2d::Object': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(539) : 参见“cocos2d::Object”的声明
+     1>d:\snake\classes\HelloWorldScene.h(25): warning C4996: 'cocos2d::Object': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(539) : 参见“cocos2d::Object”的声明
+     1>d:\snake\classes\HelloWorldScene.h(24): warning C4996: 'cocos2d::Object': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(539) : 参见“cocos2d::Object”的声明
+     1>d:\snake\classes\HelloWorldScene.h(26): warning C4996: 'cocos2d::Object': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(539) : 参见“cocos2d::Object”的声明
+     1>d:\snake\classes\HelloWorldScene.h(25): warning C4996: 'cocos2d::Object': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(539) : 参见“cocos2d::Object”的声明
+     1>d:\snake\classes\HelloWorldScene.h(27): warning C4996: 'cocos2d::Object': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(539) : 参见“cocos2d::Object”的声明
+     1>d:\snake\classes\HelloWorldScene.h(26): warning C4996: 'cocos2d::Object': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(539) : 参见“cocos2d::Object”的声明
+     1>d:\snake\classes\HelloWorldScene.h(27): warning C4996: 'cocos2d::Object': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(539) : 参见“cocos2d::Object”的声明
+     1>d:\snake\classes\HelloWorldScene.h(20): warning C4996: 'cocos2d::Object': 被声明为已否决 (..\Classes\HelloWorldScene.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(539) : 参见“cocos2d::Object”的声明
+     1>d:\snake\classes\HelloWorldScene.h(20): warning C4996: 'cocos2d::Object': 被声明为已否决 (..\Classes\AppDelegate.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(539) : 参见“cocos2d::Object”的声明
+     1>..\Classes\GameLayer.cpp(84): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>..\Classes\GameLayer.cpp(87): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>..\Classes\GameLayer.cpp(90): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>..\Classes\GameLayer.cpp(93): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>..\Classes\GameLayer.cpp(98): warning C4996: 'cocos2d::__Array::objectAtIndex': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated\CCArray.h(356) : 参见“cocos2d::__Array::objectAtIndex”的声明
+     1>..\Classes\GameLayer.cpp(105): warning C4996: 'cocos2d::Node::unscheduleAllSelectors': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\2d/CCNode.h(1436) : 参见“cocos2d::Node::unscheduleAllSelectors”的声明
+     1>..\Classes\GameLayer.cpp(108): warning C4996: 'cocos2d::CCRect': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>..\Classes\GameLayer.cpp(111): warning C4996: 'cocos2d::__Array::objectAtIndex': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated\CCArray.h(356) : 参见“cocos2d::__Array::objectAtIndex”的声明
+     1>..\Classes\GameLayer.cpp(118): warning C4996: 'cocos2d::Node::unscheduleAllSelectors': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\2d/CCNode.h(1436) : 参见“cocos2d::Node::unscheduleAllSelectors”的声明
+     1>..\Classes\GameLayer.cpp(123): warning C4996: 'cocos2d::__Array::objectAtIndex': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated\CCArray.h(356) : 参见“cocos2d::__Array::objectAtIndex”的声明
+     1>..\Classes\GameLayer.cpp(130): warning C4996: 'cocos2d::Node::unscheduleAllSelectors': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\2d/CCNode.h(1436) : 参见“cocos2d::Node::unscheduleAllSelectors”的声明
+     1>..\Classes\GameLayer.cpp(135): warning C4996: 'cocos2d::__Array::objectAtIndex': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated\CCArray.h(356) : 参见“cocos2d::__Array::objectAtIndex”的声明
+     1>..\Classes\GameLayer.cpp(142): warning C4996: 'cocos2d::Node::unscheduleAllSelectors': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\2d/CCNode.h(1436) : 参见“cocos2d::Node::unscheduleAllSelectors”的声明
+     1>..\Classes\GameLayer.cpp(148): warning C4996: 'cocos2d::__Array::objectAtIndex': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated\CCArray.h(356) : 参见“cocos2d::__Array::objectAtIndex”的声明
+     1>..\Classes\GameLayer.cpp(155): warning C4996: 'cocos2d::Node::unscheduleAllSelectors': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\2d/CCNode.h(1436) : 参见“cocos2d::Node::unscheduleAllSelectors”的声明
+     1>..\Classes\GameLayer.cpp(161): warning C4996: 'cocos2d::__Array::objectAtIndex': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated\CCArray.h(356) : 参见“cocos2d::__Array::objectAtIndex”的声明
+     1>..\Classes\GameLayer.cpp(163): warning C4996: 'cocos2d::__Array::objectAtIndex': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated\CCArray.h(356) : 参见“cocos2d::__Array::objectAtIndex”的声明
+     1>..\Classes\GameLayer.cpp(164): warning C4996: 'cocos2d::CCRect': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>..\Classes\GameLayer.cpp(169): warning C4996: 'cocos2d::Node::unscheduleAllSelectors': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\2d/CCNode.h(1436) : 参见“cocos2d::Node::unscheduleAllSelectors”的声明
+     1>..\Classes\GameLayer.cpp(181): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': 被声明为已否决
+                 D:\Cocos\frameworks\cocos2d-x-3.5\cocos\audio\include\SimpleAudioEngine.h(70) : 参见“CocosDenshion::SimpleAudioEngine::sharedEngine”的声明
+     1>..\Classes\GameLayer.cpp(186): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': 被声明为已否决
+                 D:\Cocos\frameworks\cocos2d-x-3.5\cocos\audio\include\SimpleAudioEngine.h(70) : 参见“CocosDenshion::SimpleAudioEngine::sharedEngine”的声明
+     1>..\Classes\GameLayer.cpp(192): warning C4996: 'cocos2d::CCRect': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>..\Classes\GameLayer.cpp(201): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>..\Classes\GameLayer.cpp(204): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>..\Classes\GameLayer.cpp(207): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>..\Classes\GameLayer.cpp(210): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>..\Classes\GameLayer.cpp(214): warning C4996: 'cocos2d::__Array::objectAtIndex': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated\CCArray.h(356) : 参见“cocos2d::__Array::objectAtIndex”的声明
+     1>..\Classes\GameLayer.cpp(221): warning C4996: 'cocos2d::Node::unscheduleAllSelectors': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\2d/CCNode.h(1436) : 参见“cocos2d::Node::unscheduleAllSelectors”的声明
+     1>..\Classes\GameLayer.cpp(232): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': 被声明为已否决
+                 D:\Cocos\frameworks\cocos2d-x-3.5\cocos\audio\include\SimpleAudioEngine.h(70) : 参见“CocosDenshion::SimpleAudioEngine::sharedEngine”的声明
+     1>..\Classes\GameLayer.cpp(237): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': 被声明为已否决
+                 D:\Cocos\frameworks\cocos2d-x-3.5\cocos\audio\include\SimpleAudioEngine.h(70) : 参见“CocosDenshion::SimpleAudioEngine::sharedEngine”的声明
+     1>..\Classes\GameLayer.cpp(249): warning C4996: 'cocos2d::CCPoint': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(775) : 参见“cocos2d::CCPoint”的声明
+     1>..\Classes\GameLayer.cpp(249): warning C4996: 'cocos2d::ccpClamp': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(250) : 参见“cocos2d::ccpClamp”的声明
+     1>..\Classes\GameLayer.cpp(257): warning C4996: 'cocos2d::CCRect': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>..\Classes\GameLayer.cpp(258): warning C4996: 'cocos2d::CCRect': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>..\Classes\GameLayer.cpp(259): warning C4996: 'cocos2d::CCRect': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>..\Classes\GameLayer.cpp(263): warning C4996: 'cocos2d::__Array::objectAtIndex': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated\CCArray.h(356) : 参见“cocos2d::__Array::objectAtIndex”的声明
+     1>..\Classes\GameLayer.cpp(273): warning C4996: 'cocos2d::__Array::objectAtIndex': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated\CCArray.h(356) : 参见“cocos2d::__Array::objectAtIndex”的声明
+     1>..\Classes\GameLayer.cpp(282): warning C4996: 'cocos2d::__Array::objectAtIndex': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated\CCArray.h(356) : 参见“cocos2d::__Array::objectAtIndex”的声明
+     1>..\Classes\GameLayer.cpp(292): warning C4996: 'cocos2d::CCRect': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>..\Classes\GameLayer.cpp(376): warning C4996: 'cocos2d::CCAction': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(560) : 参见“cocos2d::CCAction”的声明
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(560) : 参见“cocos2d::CCAction”的声明
+     1>..\Classes\GameLayer.cpp(383): warning C4996: 'cocos2d::CCAction': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(560) : 参见“cocos2d::CCAction”的声明
+     1>..\Classes\GameLayer.cpp(383): warning C4996: 'cocos2d::ccp': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(49) : 参见“cocos2d::ccp”的声明
+         SingleGameLayer.cpp
+         Snake2Node.cpp
+         SnakeNode.cpp
+     1>..\Classes\HelloWorldScene.cpp(48): warning C4996: 'cocos2d::MenuItemImage::create': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\2d/CCMenuItem.h(427) : 参见“cocos2d::MenuItemImage::create”的声明
+     1>..\Classes\HelloWorldScene.cpp(50): warning C4996: 'cocos2d::MenuItemImage::create': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\2d/CCMenuItem.h(427) : 参见“cocos2d::MenuItemImage::create”的声明
+     1>..\Classes\HelloWorldScene.cpp(52): warning C4996: 'cocos2d::MenuItemImage::create': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\2d/CCMenuItem.h(427) : 参见“cocos2d::MenuItemImage::create”的声明
+     1>..\Classes\HelloWorldScene.cpp(79): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': 被声明为已否决
+                 D:\Cocos\frameworks\cocos2d-x-3.5\cocos\audio\include\SimpleAudioEngine.h(70) : 参见“CocosDenshion::SimpleAudioEngine::sharedEngine”的声明
+     1>..\Classes\HelloWorldScene.cpp(80): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': 被声明为已否决
+                 D:\Cocos\frameworks\cocos2d-x-3.5\cocos\audio\include\SimpleAudioEngine.h(70) : 参见“CocosDenshion::SimpleAudioEngine::sharedEngine”的声明
+     1>..\Classes\HelloWorldScene.cpp(81): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': 被声明为已否决
+                 D:\Cocos\frameworks\cocos2d-x-3.5\cocos\audio\include\SimpleAudioEngine.h(70) : 参见“CocosDenshion::SimpleAudioEngine::sharedEngine”的声明
+     1>..\Classes\HelloWorldScene.cpp(82): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': 被声明为已否决
+                 D:\Cocos\frameworks\cocos2d-x-3.5\cocos\audio\include\SimpleAudioEngine.h(70) : 参见“CocosDenshion::SimpleAudioEngine::sharedEngine”的声明
+     1>..\Classes\HelloWorldScene.cpp(86): warning C4996: 'cocos2d::Object': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(539) : 参见“cocos2d::Object”的声明
+     1>..\Classes\HelloWorldScene.cpp(93): warning C4996: 'cocos2d::MenuItemImage::create': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\2d/CCMenuItem.h(427) : 参见“cocos2d::MenuItemImage::create”的声明
+     1>..\Classes\HelloWorldScene.cpp(98): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': 被声明为已否决
+                 D:\Cocos\frameworks\cocos2d-x-3.5\cocos\audio\include\SimpleAudioEngine.h(70) : 参见“CocosDenshion::SimpleAudioEngine::sharedEngine”的声明
+     1>..\Classes\HelloWorldScene.cpp(103): warning C4996: 'cocos2d::Object': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(539) : 参见“cocos2d::Object”的声明
+     1>..\Classes\HelloWorldScene.cpp(111): warning C4996: 'cocos2d::MenuItemImage::create': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\2d/CCMenuItem.h(427) : 参见“cocos2d::MenuItemImage::create”的声明
+     1>..\Classes\HelloWorldScene.cpp(116): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': 被声明为已否决
+                 D:\Cocos\frameworks\cocos2d-x-3.5\cocos\audio\include\SimpleAudioEngine.h(70) : 参见“CocosDenshion::SimpleAudioEngine::sharedEngine”的声明
+     1>..\Classes\HelloWorldScene.cpp(121): warning C4996: 'cocos2d::Object': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(539) : 参见“cocos2d::Object”的声明
+     1>..\Classes\HelloWorldScene.cpp(124): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': 被声明为已否决
+                 D:\Cocos\frameworks\cocos2d-x-3.5\cocos\audio\include\SimpleAudioEngine.h(70) : 参见“CocosDenshion::SimpleAudioEngine::sharedEngine”的声明
+     1>..\Classes\HelloWorldScene.cpp(127): warning C4996: 'cocos2d::Object': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(539) : 参见“cocos2d::Object”的声明
+     1>..\Classes\HelloWorldScene.cpp(128): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': 被声明为已否决
+                 D:\Cocos\frameworks\cocos2d-x-3.5\cocos\audio\include\SimpleAudioEngine.h(70) : 参见“CocosDenshion::SimpleAudioEngine::sharedEngine”的声明
+     1>..\Classes\HelloWorldScene.cpp(130): warning C4996: 'cocos2d::Node::unscheduleAllSelectors': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\2d/CCNode.h(1436) : 参见“cocos2d::Node::unscheduleAllSelectors”的声明
+     1>..\Classes\HelloWorldScene.cpp(133): warning C4996: 'cocos2d::Node::unscheduleAllSelectors': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\2d/CCNode.h(1436) : 参见“cocos2d::Node::unscheduleAllSelectors”的声明
+     1>..\Classes\HelloWorldScene.cpp(135): warning C4996: 'cocos2d::MenuItemImage::create': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\2d/CCMenuItem.h(427) : 参见“cocos2d::MenuItemImage::create”的声明
+     1>..\Classes\HelloWorldScene.cpp(138): warning C4996: 'cocos2d::MenuItemImage::create': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\2d/CCMenuItem.h(427) : 参见“cocos2d::MenuItemImage::create”的声明
+     1>..\Classes\HelloWorldScene.cpp(148): warning C4996: 'cocos2d::Object': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(539) : 参见“cocos2d::Object”的声明
+     1>..\Classes\HelloWorldScene.cpp(149): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': 被声明为已否决
+                 D:\Cocos\frameworks\cocos2d-x-3.5\cocos\audio\include\SimpleAudioEngine.h(70) : 参见“CocosDenshion::SimpleAudioEngine::sharedEngine”的声明
+     1>..\Classes\HelloWorldScene.cpp(163): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': 被声明为已否决
+                 D:\Cocos\frameworks\cocos2d-x-3.5\cocos\audio\include\SimpleAudioEngine.h(70) : 参见“CocosDenshion::SimpleAudioEngine::sharedEngine”的声明
+     1>..\Classes\HelloWorldScene.cpp(167): warning C4996: 'cocos2d::Object': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(539) : 参见“cocos2d::Object”的声明
+     1>..\Classes\HelloWorldScene.cpp(171): warning C4996: 'cocos2d::MenuItemImage::create': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\2d/CCMenuItem.h(427) : 参见“cocos2d::MenuItemImage::create”的声明
+     1>..\Classes\HelloWorldScene.cpp(176): warning C4305: “参数”: 从“double”到“float”截断
+     1>..\Classes\HelloWorldScene.cpp(177): warning C4996: 'cocos2d::ccp': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(49) : 参见“cocos2d::ccp”的声明
+     1>d:\cocos\frameworks\cocos2d-x-3.5\cocos\physics/CCPhysicsJoint.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (..\Classes\SnakeNode.cpp)
+     1>d:\cocos\frameworks\cocos2d-x-3.5\cocos\physics/CCPhysicsJoint.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (..\Classes\Snake2Node.cpp)
+     1>d:\cocos\frameworks\cocos2d-x-3.5\cocos\physics/CCPhysicsJoint.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (..\Classes\SingleGameLayer.cpp)
+     1>d:\snake\classes\WallLayer.h(11): warning C4996: 'cocos2d::CCArray': 被声明为已否决 (..\Classes\SingleGameLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(1036) : 参见“cocos2d::CCArray”的声明
+     1>d:\snake\classes\WallLayer.h(10): warning C4996: 'cocos2d::CCArray': 被声明为已否决 (..\Classes\SingleGameLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(1036) : 参见“cocos2d::CCArray”的声明
+     1>d:\snake\classes\SingleGameLayer.h(32): warning C4996: 'cocos2d::CCArray': 被声明为已否决 (..\Classes\SingleGameLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(1036) : 参见“cocos2d::CCArray”的声明
+     1>d:\snake\classes\SingleGameLayer.h(37): warning C4996: 'cocos2d::CCPoint': 被声明为已否决 (..\Classes\SingleGameLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(775) : 参见“cocos2d::CCPoint”的声明
+     1>d:\snake\classes\SingleGameLayer.h(39): warning C4996: 'cocos2d::CCPoint': 被声明为已否决 (..\Classes\SingleGameLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(775) : 参见“cocos2d::CCPoint”的声明
+     1>d:\snake\classes\SingleGameLayer.h(40): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\SingleGameLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>d:\snake\classes\SingleGameLayer.h(41): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\SingleGameLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>d:\snake\classes\SingleGameLayer.h(42): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\SingleGameLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>d:\snake\classes\SingleGameLayer.h(19): warning C4996: 'cocos2d::CCPoint': 被声明为已否决 (..\Classes\SingleGameLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(775) : 参见“cocos2d::CCPoint”的声明
+     1>d:\snake\classes\SingleGameLayer.h(19): warning C4996: 'cocos2d::CCRect': 被声明为已否决 (..\Classes\SingleGameLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>..\Classes\SingleGameLayer.cpp(7): warning C4996: 'cocos2d::CCPoint': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(775) : 参见“cocos2d::CCPoint”的声明
+     1>..\Classes\SingleGameLayer.cpp(40): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>..\Classes\SingleGameLayer.cpp(40): warning C4996: 'cocos2d::ccp': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(49) : 参见“cocos2d::ccp”的声明
+     1>..\Classes\SingleGameLayer.cpp(47): warning C4996: 'cocos2d::__Array::objectAtIndex': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated\CCArray.h(356) : 参见“cocos2d::__Array::objectAtIndex”的声明
+     1>..\Classes\SingleGameLayer.cpp(48): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>..\Classes\SingleGameLayer.cpp(76): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>..\Classes\SingleGameLayer.cpp(79): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>..\Classes\SingleGameLayer.cpp(82): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>..\Classes\SingleGameLayer.cpp(85): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>..\Classes\SingleGameLayer.cpp(88): warning C4996: 'cocos2d::__Array::objectAtIndex': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated\CCArray.h(356) : 参见“cocos2d::__Array::objectAtIndex”的声明
+     1>..\Classes\SingleGameLayer.cpp(90): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>..\Classes\SingleGameLayer.cpp(93): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>..\Classes\SingleGameLayer.cpp(96): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>..\Classes\SingleGameLayer.cpp(99): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>..\Classes\SingleGameLayer.cpp(104): warning C4996: 'cocos2d::__Array::objectAtIndex': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated\CCArray.h(356) : 参见“cocos2d::__Array::objectAtIndex”的声明
+     1>..\Classes\SingleGameLayer.cpp(105): warning C4996: 'cocos2d::__Array::objectAtIndex': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated\CCArray.h(356) : 参见“cocos2d::__Array::objectAtIndex”的声明
+     1>..\Classes\SingleGameLayer.cpp(118): warning C4996: 'cocos2d::__Array::objectAtIndex': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated\CCArray.h(356) : 参见“cocos2d::__Array::objectAtIndex”的声明
+     1>..\Classes\SingleGameLayer.cpp(128): warning C4996: 'cocos2d::__Array::objectAtIndex': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated\CCArray.h(356) : 参见“cocos2d::__Array::objectAtIndex”的声明
+     1>..\Classes\SingleGameLayer.cpp(135): warning C4996: 'cocos2d::Node::unscheduleAllSelectors': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\2d/CCNode.h(1436) : 参见“cocos2d::Node::unscheduleAllSelectors”的声明
+     1>..\Classes\SingleGameLayer.cpp(138): warning C4996: 'cocos2d::CCRect': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>..\Classes\SingleGameLayer.cpp(141): warning C4996: 'cocos2d::__Array::objectAtIndex': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated\CCArray.h(356) : 参见“cocos2d::__Array::objectAtIndex”的声明
+     1>..\Classes\SingleGameLayer.cpp(148): warning C4996: 'cocos2d::Node::unscheduleAllSelectors': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\2d/CCNode.h(1436) : 参见“cocos2d::Node::unscheduleAllSelectors”的声明
+     1>..\Classes\SingleGameLayer.cpp(158): warning C4996: 'cocos2d::__Array::lastObject': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated\CCArray.h(374) : 参见“cocos2d::__Array::lastObject”的声明
+     1>..\Classes\SingleGameLayer.cpp(160): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>..\Classes\SingleGameLayer.cpp(164): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>..\Classes\SingleGameLayer.cpp(168): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>..\Classes\SingleGameLayer.cpp(172): warning C4996: 'cocos2d::ccpAdd': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(71) : 参见“cocos2d::ccpAdd”的声明
+     1>..\Classes\SingleGameLayer.cpp(184): warning C4996: 'CocosDenshion::SimpleAudioEngine::sharedEngine': 被声明为已否决
+                 D:\Cocos\frameworks\cocos2d-x-3.5\cocos\audio\include\SimpleAudioEngine.h(70) : 参见“CocosDenshion::SimpleAudioEngine::sharedEngine”的声明
+     1>..\Classes\SingleGameLayer.cpp(190): warning C4996: 'cocos2d::CCRect': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>..\Classes\SingleGameLayer.cpp(196): warning C4996: 'cocos2d::CCPoint': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(775) : 参见“cocos2d::CCPoint”的声明
+     1>..\Classes\SingleGameLayer.cpp(196): warning C4996: 'cocos2d::ccpClamp': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(250) : 参见“cocos2d::ccpClamp”的声明
+     1>..\Classes\SingleGameLayer.cpp(203): warning C4996: 'cocos2d::CCRect': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>..\Classes\SingleGameLayer.cpp(204): warning C4996: 'cocos2d::CCRect': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>..\Classes\SingleGameLayer.cpp(207): warning C4996: 'cocos2d::__Array::objectAtIndex': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated\CCArray.h(356) : 参见“cocos2d::__Array::objectAtIndex”的声明
+     1>..\Classes\SingleGameLayer.cpp(218): warning C4996: 'cocos2d::CCRect': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(777) : 参见“cocos2d::CCRect”的声明
+     1>..\Classes\SingleGameLayer.cpp(242): warning C4996: 'cocos2d::CCPoint': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(775) : 参见“cocos2d::CCPoint”的声明
+     1>..\Classes\SingleGameLayer.cpp(272): warning C4996: 'cocos2d::LabelTTF': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\2d/CCLabelTTF.h(67) : 参见“cocos2d::LabelTTF”的声明
+     1>..\Classes\SingleGameLayer.cpp(272): warning C4996: 'cocos2d::LabelTTF::create': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\2d/CCLabelTTF.h(83) : 参见“cocos2d::LabelTTF::create”的声明
+     1>..\Classes\SingleGameLayer.cpp(276): warning C4996: 'cocos2d::CCAction': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(560) : 参见“cocos2d::CCAction”的声明
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(560) : 参见“cocos2d::CCAction”的声明
+         WallLayer.cpp
+         main.cpp
+         EndLayer.cpp
+     1>d:\cocos\frameworks\cocos2d-x-3.5\cocos\physics/CCPhysicsJoint.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (..\Classes\WallLayer.cpp)
+     1>d:\snake\classes\WallLayer.h(11): warning C4996: 'cocos2d::CCArray': 被声明为已否决 (..\Classes\WallLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(1036) : 参见“cocos2d::CCArray”的声明
+     1>d:\snake\classes\WallLayer.h(10): warning C4996: 'cocos2d::CCArray': 被声明为已否决 (..\Classes\WallLayer.cpp)
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(1036) : 参见“cocos2d::CCArray”的声明
+     1>d:\cocos\frameworks\cocos2d-x-3.5\cocos\physics/CCPhysicsJoint.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (main.cpp)
+     1>d:\cocos\frameworks\cocos2d-x-3.5\cocos\physics/CCPhysicsJoint.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 (EndLayer.cpp)
+     1>EndLayer.cpp(19): warning C4305: “参数”: 从“double”到“float”截断
+     1>EndLayer.cpp(21): warning C4996: 'cocos2d::CCAction': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(560) : 参见“cocos2d::CCAction”的声明
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(560) : 参见“cocos2d::CCAction”的声明
+     1>EndLayer.cpp(21): warning C4996: 'cocos2d::ccp': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(49) : 参见“cocos2d::ccp”的声明
+     1>EndLayer.cpp(31): warning C4996: 'cocos2d::ccp': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(49) : 参见“cocos2d::ccp”的声明
+     1>EndLayer.cpp(36): warning C4996: 'cocos2d::ccp': 被声明为已否决
+                 d:\cocos\frameworks\cocos2d-x-3.5\cocos\deprecated/CCDeprecated.h(49) : 参见“cocos2d::ccp”的声明
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release.win32\game.res" game.rc 
+       PreLinkEvent:
+         if not exist "D:\Snake\proj.win32\Release.win32\" mkdir "D:\Snake\proj.win32\Release.win32\"
+         xcopy /Y /Q "D:\Cocos\frameworks\cocos2d-x-3.5\prebuilt\win32\*.*" "D:\Snake\proj.win32\Release.win32\"
+         xcopy "D:\Snake\proj.win32\..\Resources" "D:\Snake\proj.win32\Release.win32\" /D /E /I /F /Y
+         
+         :VCEnd
+         复制了 51 个文件
+         D:\Snake\Resources\res\1.png -> D:\Snake\proj.win32\Release.win32\res\1.png
+         D:\Snake\Resources\res\1di.png -> D:\Snake\proj.win32\Release.win32\res\1di.png
+         D:\Snake\Resources\res\2di.png -> D:\Snake\proj.win32\Release.win32\res\2di.png
+         D:\Snake\Resources\res\BackGround.mp3 -> D:\Snake\proj.win32\Release.win32\res\BackGround.mp3
+         D:\Snake\Resources\res\BackGround.png -> D:\Snake\proj.win32\Release.win32\res\BackGround.png
+         D:\Snake\Resources\res\Continue.png -> D:\Snake\proj.win32\Release.win32\res\Continue.png
+         D:\Snake\Resources\res\ContinueAgo.png -> D:\Snake\proj.win32\Release.win32\res\ContinueAgo.png
+         D:\Snake\Resources\res\Double.png -> D:\Snake\proj.win32\Release.win32\res\Double.png
+         D:\Snake\Resources\res\DoubleAgo.png -> D:\Snake\proj.win32\Release.win32\res\DoubleAgo.png
+         D:\Snake\Resources\res\Food.mp3 -> D:\Snake\proj.win32\Release.win32\res\Food.mp3
+         D:\Snake\Resources\res\Food.png -> D:\Snake\proj.win32\Release.win32\res\Food.png
+         D:\Snake\Resources\res\HelloWorld.png -> D:\Snake\proj.win32\Release.win32\res\HelloWorld.png
+         D:\Snake\Resources\res\Help.png -> D:\Snake\proj.win32\Release.win32\res\Help.png
+         D:\Snake\Resources\res\HelpM.png -> D:\Snake\proj.win32\Release.win32\res\HelpM.png
+         D:\Snake\Resources\res\HelpN.png -> D:\Snake\proj.win32\Release.win32\res\HelpN.png
+         D:\Snake\Resources\res\MainScene.csb -> D:\Snake\proj.win32\Release.win32\res\MainScene.csb
+         D:\Snake\Resources\res\Pause.png -> D:\Snake\proj.win32\Release.win32\res\Pause.png
+         D:\Snake\Resources\res\PauseAgo.png -> D:\Snake\proj.win32\Release.win32\res\PauseAgo.png
+         D:\Snake\Resources\res\Return.png -> D:\Snake\proj.win32\Release.win32\res\Return.png
+         D:\Snake\Resources\res\ReturnAgo.png -> D:\Snake\proj.win32\Release.win32\res\ReturnAgo.png
+         D:\Snake\Resources\res\Single.png -> D:\Snake\proj.win32\Release.win32\res\Single.png
+         D:\Snake\Resources\res\SingleAgo.png -> D:\Snake\proj.win32\Release.win32\res\SingleAgo.png
+         D:\Snake\Resources\res\Snake.png -> D:\Snake\proj.win32\Release.win32\res\Snake.png
+         D:\Snake\Resources\res\Snake111.png -> D:\Snake\proj.win32\Release.win32\res\Snake111.png
+         D:\Snake\Resources\res\Snake2.png -> D:\Snake\proj.win32\Release.win32\res\Snake2.png
+         D:\Snake\Resources\res\Snake4.png -> D:\Snake\proj.win32\Release.win32\res\Snake4.png
+         D:\Snake\Resources\res\Wall.png -> D:\Snake\proj.win32\Release.win32\res\Wall.png
+         D:\Snake\Resources\res\WallX.png -> D:\Snake\proj.win32\Release.win32\res\WallX.png
+         D:\Snake\Resources\res\Win.png -> D:\Snake\proj.win32\Release.win32\res\Win.png
+         复制了 29 个文件
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Snake\proj.win32\Release.win32\Snake.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:D:\Snake\proj.win32\Release.win32\ /LIBPATH:D:\Snake\proj.win32\Release.win32\ libcurl_imp.lib websockets.lib opengl32.lib glew32.lib libzlib.lib libpng.lib libjpeg.lib libtiff.lib libwebp.lib libiconv.lib glfw3.lib freetype250.lib winmm.lib ws2_32.lib libchipmunk.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Snake\proj.win32\Release.win32\Snake.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Snake\proj.win32\Release.win32\Snake.lib" /MACHINE:X86 /SAFESEH Release.win32\game.res
+         Release.win32\AppDelegate.obj
+         Release.win32\BackGroundLayer.obj
+         Release.win32\GameLayer.obj
+         Release.win32\HelloWorldScene.obj
+         Release.win32\SingleGameLayer.obj
+         Release.win32\Snake2Node.obj
+         Release.win32\SnakeNode.obj
+         Release.win32\WallLayer.obj
+         Release.win32\main.obj
+         Release.win32\EndLayer.obj
+            正在创建库 D:\Snake\proj.win32\Release.win32\Snake.lib 和对象 D:\Snake\proj.win32\Release.win32\Snake.exp
+         正在生成代码
+         已完成代码的生成
+         Snake.vcxproj -> D:\Snake\proj.win32\Release.win32\Snake.exe
+     1>已完成生成项目“D:\Snake\proj.win32\Snake.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:50.43
