@@ -7,6 +7,7 @@ class DoubleScene : public cocos2d::Scene
 {
 public:
 	DoubleScene();
+	~DoubleScene();
 
 
 };
