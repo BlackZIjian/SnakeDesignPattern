@@ -9,7 +9,6 @@ public:
 	DoubleScene();
 	~DoubleScene();
 
-
 };
 
 

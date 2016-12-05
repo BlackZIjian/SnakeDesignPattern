@@ -3,6 +3,8 @@
 #include "SnakeLayer.h"
 
 void SnakeNodeSprite::MoveOnePoint(SnakeNodeSprite* front) {
+	SnakeLayer* parent = (SnakeLayer*)getParent();
+	parent->callback_move_before(count);
 	float delta_x = StartScene::delta_x;
 	float delta_y = StartScene::delta_y;
 
@@ -27,14 +29,14 @@ void SnakeNodeSprite::MoveOnePoint(SnakeNodeSprite* front) {
 	if (front != NULL) {
 		direction = front->direction;
 	}
-	if (count == 0) {
-		SnakeLayer* parent = (SnakeLayer*)getParent();
-		parent->callback_move_finished();
-	}
+		
+		parent->callback_move_finished(count);
+	
 }
 
 void SnakeNodeSprite::Move(int speed, SnakeNodeSprite* front,float delta_time) {
 	for (int i = 0; i < speed * delta_time; i++) {
+		
 		MoveOnePoint(front);
 	}
 }
