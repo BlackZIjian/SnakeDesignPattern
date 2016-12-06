@@ -4,6 +4,8 @@
 #define DOWN 1
 #define LEFT 2
 #define RIGHT 3
+#define WIDTH 100
+#define HEIGHT 100
 #include "cocos2d.h"
 
 
